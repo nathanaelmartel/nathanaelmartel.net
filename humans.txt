@@ -1,0 +1,13 @@
+/* TEAM */
+
+	design by Nathanaël Martel
+	Site : http://nathanaelmartel.net/
+  Twitter: @simplementNat
+	Contact: nat[at]nathanaelmartel.net
+	From: France
+
+
+/* SITE */
+	Language: Français
+	Doctype: HTML5
+	Components: HTML5, CSS3
