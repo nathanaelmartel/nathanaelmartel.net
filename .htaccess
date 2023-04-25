@@ -39,3 +39,16 @@ FileETag MTime Size
   </IfModule>
 
 </IfModule>
+
+
+
+Options +FollowSymLinks +ExecCGI
+
+Header set X-Content-Type-Options: "nosniff"
+Header set X-XSS-Protection "1; mode=block"
+
+RedirectMatch 404 /\.git
+RedirectMatch 404 /update
+RedirectMatch 404 /clean.log
+
+

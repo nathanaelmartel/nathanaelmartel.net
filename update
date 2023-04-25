@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo 'delete this file for disable maintenance mode' > .maintenance
+
+git fetch --all
+git reset --hard origin/master
+git status | grep ".bak" | xargs -r rm
+git status | grep ".ico" | xargs -r rm
+
+rm .maintenance
+
+git status
